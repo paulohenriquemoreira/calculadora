@@ -50,4 +50,20 @@ body{
     max-width: 26rem;
     height: 3rem;
     text-align: right;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0.5rem 0;
+}
+::-webkit-scrollbar{
+    height: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background: gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: crimson;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(144, 7, 35);
 }
